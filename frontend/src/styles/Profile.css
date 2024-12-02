@@ -1,0 +1,98 @@
+/* Profile Page Styles */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #333;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.profile-header {
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  margin-bottom: 15px;
+}
+
+.profile-card h2 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.profile-email {
+  color: #bbb;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.profile-details h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.profile-details p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.profile-details strong {
+  color: white;
+}
+
+.loading-container,
+.error-message {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.loading-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    padding: 30px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-details {
+    padding: 15px;
+  }
+}

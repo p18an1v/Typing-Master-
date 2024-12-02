@@ -1,0 +1,175 @@
+/* General Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  justify-content: space-between; /* Ensures the footer sticks at the bottom */
+}
+
+.navbar {
+  background-color: #000;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-link {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #ccc;
+}
+
+.header {
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.header-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.header-subtitle {
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.header-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.button-login {
+  background-color: white;
+  color: black;
+}
+
+.button-register {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+.about-section {
+  background-color: #333;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-image {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about-text {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features-section {
+  background-color: #444;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.feature-item {
+  width: 250px;
+}
+
+.feature-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.testimonials-section {
+  background-color: #333;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.testimonial-item {
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #bbb;
+}
