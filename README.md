@@ -60,8 +60,20 @@ Typing Master is a web application designed to help users improve their typing s
 ---
 ### Screenshots
 Frontend
+![Screenshot 2024-12-02 230800](https://github.com/user-attachments/assets/55231959-f926-44f4-bc93-94a8560d93c4)
+![Screenshot 2024-12-02 230808](https://github.com/user-attachments/assets/8722e357-84e1-4e42-9d78-8484ac4809ac)
+![Screenshot 2024-12-02 230823](https://github.com/user-attachments/assets/5eb7eebe-c9ea-4fba-99b1-124a4c24a86d)
+![Screenshot 2024-12-02 230837](https://github.com/user-attachments/assets/2ddc9ff6-936b-45b6-aacd-32bd5e3eaea4)
+![Screenshot 2024-12-02 235451](https://github.com/user-attachments/assets/3c7e03ec-b9d8-48d0-ab9b-42d0d02441b8)
+![Screenshot 2024-12-02 235655](https://github.com/user-attachments/assets/2dfd52dd-11bd-417d-b98a-68523b116dca)
+![Screenshot 2024-12-02 235806](https://github.com/user-attachments/assets/6eb6558a-a348-4d93-a195-2f5dafb4ed33)
+![Screenshot 2024-12-03 011436](https://github.com/user-attachments/assets/de40a847-8a33-49d3-9617-6fe19ae47c3a)
+
+
+
 
 ---
+
 
 ### API Endpoints
 Authentication:
